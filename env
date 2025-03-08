@@ -1,0 +1,3 @@
+- name: Set environment variables
+  run: |
+    echo "MY_ENV_VAR=my_value" >> $GITHUB_ENV
